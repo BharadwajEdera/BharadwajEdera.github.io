@@ -49,6 +49,9 @@ https://www.tooplate.com/view/2115-marvel
                     <li class="nav-item">
                         <a href="#Experience" class="nav-link"><span data-hover="Experience">Experience</span></a>
                     </li>
+                    <li class="nav-item">
+                        <a href="#Prototype" class="nav-link"><span data-hover="Prototype">Prototype</span></a>
+                    </li>
 					<li class="nav-item">
                         <a href="#Education" class="nav-link"><span data-hover="Education">Education</span></a>
                     </li>
@@ -92,7 +95,7 @@ https://www.tooplate.com/view/2115-marvel
                                 </div>
                         </h1>
                         <p>| M.Tech in Machine Learning and Computing at <a href="https://www.iist.ac.in/academics/curriculum/semester/info/2/13/66">IIST</a> | </p>
-                        <p>| Machine Learning | Deep Learning | Computer Vision | </p>
+                        <p>| Generative AI | Machine Learning | Deep Learning | Computer Vision | </p>
                         <p> | NLP | Reinforcement Learning | Optimization |</p>
                         <p> | Statistical Modelling | Database | Deployment |</p>
                         
@@ -104,7 +107,7 @@ https://www.tooplate.com/view/2115-marvel
 
                 <div class="col-lg-5 col-md-12 col-12">
                     <div class="about-image svg">
-                        <img src="images/undraw/1.png" class="img-fluid" alt="svg image">
+                        <img src="images/undraw/1.png" class="img-fluid" alt="svg image" width="500" height="500">
                     </div>
                 </div>
 
@@ -127,23 +130,47 @@ https://www.tooplate.com/view/2115-marvel
 
                             <div class="timeline-wrapper">
                                  <div class="timeline-yr">
-                                      <span><td width="33%" valign="top" align="center"><img src="images/project/Lane_Detection.gif" alt="PAL" width="100%" style="border-radius:20px"></a></span>
+                                      <span><td width="33%" valign="top" align="center"><img src="images/project/chatbot.webp" alt="PAL" width="100%" style="border-radius:20px"></a></span>
                                  </div>
                                  <div class="timeline-info">
-                                      <h5><span>Lane Segmentation for Country Road Scenarios </span></h5>
+                                      <h5><span>RAG Chatbot </span></h5>
                                                               
                                       <dl>
-                                        <li>The idea is to improve the performance of the lane detection for country road scenarios using ERFnet and PIDNet
-                                            architectures</a> <br> </li>
-                                        <li>Challenges are to overcome the scenarios like Sharp turns, adverse weather conditions and non stability of the input
-                                            camera mounted on truck for off road</a> <br></li>
-                                        <li>Fine-tuned MAXIM model for low light image enhancement and adverse weather conditions</li>
-                                        <li>Collected and augmented data to overcome uneven data distribution for sharp turns</li>
+                                        <li>Engineered an Internal Policy chatbot, deploying RAG pipeline, resulting in a 40%
+                                            reduction in policy-related inquiries and saving 25 hours per week for the HR team.</a> <br> </li>
+                                        <li>Orchestrated creation of data connectors and mount points for departmental blob storages, including Active Directory onboarding and cloud data migration </li>
+                                        <li>Integrated internal identity access management with the cybersecurity team, ensuring secure authentication processes </li>
+                                        <li>Developed a comprehensive data ingestion pipeline, including document parsing, metadata extraction, data cleaning, semantic chunking, embedding models, and vector indexing </li>
+                                        <li>Architected a Retrieval-Augmented Generation (RAG) pipeline with LangChain and GPT-4 Turbo for chat functionality, evaluated using RAGAS framework </li>
+                                        <li>Designed and executed unit test cases for each component, ensuring reliability and quality </li>
+
                                     </dl>
                              </p>
                                       <p></p>
                                  </div>
                             </div>
+
+                            <div class="timeline-wrapper">
+                                <div class="timeline-yr">
+                                     <span><td width="33%" valign="top" align="center"><img src="images/project/clip_automotive.webp" alt="PAL" width="80%" style="border-radius:20px"></a></span>
+                                </div>
+                                <div class="timeline-info">
+                                     <h5><span> CLIP FOR AUTOMOTIVE PARTS</span></h5>
+                                                             
+                                     <dl>
+                                       <li>Collected a comprehensive dataset consisting of high-resolution images of automotive parts, ensuring diversity in components</a> <br> </li>
+                                       <li>Initial annotations are done using vit-gpt2-image-captioning and Azure Cognitive Services , quality of annotations has been maintained by manual verification and edits</li>
+                                       <li>Albumentations are used for Data augmentation and Adopted the CLIP architecture</li>
+                                       <li>Explored the potential for transfer learning by adapting the fine-tuned CLIP model for specific automotive applications, such as automated inventory management, quality control, and part identification in assembly lines</li>
+                                       <li>Implemented interpretability techniques, such as attention visualization, to provide insights into the model's decision-making process, enhancing trust and transparency in its predictions</li>
+                                
+
+                                   </dl>
+                            </p>
+                                     <p></p>
+                                </div>
+                           </div>
+
     
                             <div class="timeline-wrapper">
                                 <div class="timeline-yr">
@@ -153,6 +180,8 @@ https://www.tooplate.com/view/2115-marvel
                                      <h5><span>Quality Check Recommendation System</span></h5>
 
                                     <dl>
+                                        <li>Implemented a Recommendation System for Predictive Quality, significantly
+                                            enhancing failure prediction. Achieved a 30% reduction in rework.</a> <br> </li>
                                        <li>The motivation is to develop a recommendation system using collaborative filtering to recommend the component failures
                                         during assembly in the production plant in-order to reduce the finances on rework rate</a> <br> </li>
                                        <li>Created profiles based on unique vehicle configuration and calculated defect rate of failures</a> <br></li>
@@ -175,14 +204,38 @@ https://www.tooplate.com/view/2115-marvel
 
                             <div class="timeline-wrapper">
                                 <div class="timeline-yr">
+                                     <span><td width="33%" valign="top" align="center"><img src="images/project/Lane_Detection.gif" alt="PAL" width="100%" style="border-radius:20px"></a></span>
+                                </div>
+                                <div class="timeline-info">
+                                     <h5><span>Lane Segmentation for Country Road Scenarios </span></h5>
+                                                             
+                                     <dl>
+                                       <li>Volunteered to enhance the Lane Segmentation model, optimized performance for
+                                           country road and rough road scenarios improving F-measure by 7%</a> <br> </li>
+                                       <li>The idea is to improve the performance of the lane detection for country road scenarios using ERFnet and PIDNet
+                                           architectures</a> <br> </li>
+                                       <li>Challenges are to overcome the scenarios like Sharp turns, adverse weather conditions and non stability of the input
+                                           camera mounted on truck for off road</a> <br></li>
+                                       <li>Fine-tuned MAXIM model for low light image enhancement and adverse weather conditions</li>
+                                       <li>Collected and augmented data to overcome uneven data distribution for sharp turns</li>
+                                   </dl>
+                            </p>
+                                     <p></p>
+                                </div>
+                           </div>
+
+
+                            <div class="timeline-wrapper">
+                                <div class="timeline-yr">
                                      <span><td width="33%" valign="top" align="center"><img src="images/project/OATHD.png" alt="PAL" width="100%" style="border-radius:10px"></a></span>
                                 </div>
                                 <div class="timeline-info">
                                      <h5><span>Orientation Aware Scene Text Detection</span></h5>
                                      
                                     <dl>
-                                        <li>Involved in a research and Developed an Architecture for Orientation Aware Scene Text Detection , which is
-                                            drafted as the patent</a> <br> </li>
+                                        <li>Conducted research and developed an architecture for orientation-aware scene
+                                            text detection, resulting in a patent and improving text detection F-measure to
+                                            93%</a> <br> </li>
                                        <li>The motivation is to develop a Text Detection architecture which should be able to detect the orientation of the text
                                         from (0 to 360 degrees) along with the Text Instance</a> <br> </li>
                                        <li>As part of our research , developed an architecture which is able distinguish the text between 0 and 180 degrees.This
@@ -423,6 +476,34 @@ https://www.tooplate.com/view/2115-marvel
             </div>
         </div>
     </section>
+
+
+    	
+	<!-- Prototypes -->
+    <section class="Prototype py-5 d-lg-flex justify-content-center align-items-center" id="Prototype">
+        <div class="container">
+                  <h2 class="mb-4">Prototype</h2>
+                    <div class="video-gallery">
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/0YvYGFXmlTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/_kOANuLKDpQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/_4lGHr-jBcE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/fccrnfuSZOk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/RNAgt3Cwnsg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <!-- Add more video containers as needed -->
+            </div>
+        </div>
+    </section>
+
 	
 	
 	
@@ -507,7 +588,7 @@ https://www.tooplate.com/view/2115-marvel
             <div class="contact-form">
 
               <h3 class="mb-4">Interested to work together? Let's talk</h3>
-              <h5 class="mb-4">Mail : <small>bharadwaja.edera@gmail.com </small></h5>
+              <h5 class="mb-4">Mail : <small>bharadwajaedera@gmail.com </small></h5>
               <h5 class="mb-4">Linkedin : <a href="https://www.linkedin.com/in/bharadwajaedera/">Linkedin</a> </h5>
               
 

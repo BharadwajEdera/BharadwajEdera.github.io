@@ -570,3 +570,41 @@ b, strong {
     vertical-align: top;
   }
 }
+
+
+.video-gallery {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px;
+  background-color: #333;
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+.video-container {
+  display: inline-block;
+  margin-right: 20px;
+  flex: 0 0 auto;
+}
+
+.video-container iframe {
+  display: block;
+  border: none;
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
